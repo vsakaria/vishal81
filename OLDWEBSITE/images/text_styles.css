@@ -1,0 +1,162 @@
+/*Font and text styles */
+
+@font-face {
+    font-family: 'ScratchmybackRegular';
+    src: url('fonts/SCRATCHM-webfont.eot');
+    src: url('fonts/SCRATCHM-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/SCRATCHM-webfont.woff') format('woff'),
+         url('fonts/SCRATCHM-webfont.ttf') format('truetype'),
+         url('fonts/SCRATCHM-webfont.svg#ScratchmybackRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'JournalRegular';
+    src: url('fonts/journal-webfont.eot');
+    src: url('fonts/journal-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/journal-webfont.woff') format('woff'),
+         url('fonts/journal-webfont.ttf') format('truetype'),
+         url('fonts/journal-webfont.svg#JournalRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FuroreRegular';
+    src: url('fonts/Furore-webfont.eot');
+    src: url('fonts/Furore-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Furore-webfont.woff') format('woff'),
+         url('fonts/Furore-webfont.ttf') format('truetype'),
+         url('fonts/Furore-webfont.svg#FuroreRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'shark_in_the_waterregular';
+    src: url('fonts/sharkinthewater-webfont.eot');
+    src: url('fonts/sharkinthewater-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sharkinthewater-webfont.woff') format('woff'),
+         url('fonts/sharkinthewater-webfont.ttf') format('truetype'),
+         url('fonts/sharkinthewater-webfont.svg#shark_in_the_waterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'grafboldbold';
+    src: url('fonts/grafbb__-webfont.eot');
+    src: url('fonts/grafbb__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/grafbb__-webfont.woff') format('woff'),
+         url('fonts/grafbb__-webfont.ttf') format('truetype'),
+         url('fonts/grafbb__-webfont.svg#grafboldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'space_1regular';
+    src: url('fonts/space_1-webfont.eot');
+    src: url('fonts/space_1-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/space_1-webfont.woff') format('woff'),
+         url('fonts/space_1-webfont.ttf') format('truetype'),
+         url('fonts/space_1-webfont.svg#space_1regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'GandhiSansRegular';
+    src: url('fonts/GandhiSans-Regular-webfont.eot');
+    src: url('fonts/GandhiSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GandhiSans-Regular-webfont.woff') format('woff'),
+         url('fonts/GandhiSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/GandhiSans-Regular-webfont.svg#GandhiSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'GandhiSansBold';
+    src: url('fonts/GandhiSans-Bold-webfont.eot');
+    src: url('fonts/GandhiSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/GandhiSans-Bold-webfont.woff') format('woff'),
+         url('fonts/GandhiSans-Bold-webfont.ttf') format('truetype'),
+         url('fonts/GandhiSans-Bold-webfont.svg#GandhiSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*Paragraph styling */
+
+p.main {font-family: "ScratchmybackRegular"; font-size:60px; letter-spacing: 0; text-shadow: 5px 2px 5px rgba(119,119,119,1); }
+
+p.heading_work_page {font-family: 'ScratchmybackRegular'; font-size:42px; letter-spacing: 0; text-align: center; text-shadow: 5px 5px 5px rgba(119,119,119,1);}
+
+body {background-image:url(images/background_tri.png); }
+
+p.reading_text{font-family: "ScratchmybackRegular"; font-size:18px; text-align: left; text-shadow: 5px 5px 5px rgba(119,119,119,1);}
+p.link_text{font-family: "Ubuntu Condensed"; font-size:20px; text-align: center; color: #CCCCCC;}
+p.nav_text{font-family: "Ubuntu Condensed"; font-size:24px; color: #CCCCCC; margin: 0px; padding: 0px; padding-top:15px; margin-left: 165px; }
+
+table { border="0" }
+p.mini_reading_text{font-family:Tahoma; font-size:12px;}
+a.link_color{color: #CCCCCC;}
+
+p.reading_text_box{font-size:28px; text-align: left;  margin: 0px; padding: 0px;}
+p.reading_text_box_right{font-family:Tahoma; font-size:16px; text-align: center; }
+
+
+#new_navigation_container ul li a
+{
+    font-family: "Ubuntu Condensed"; font-size:24px;
+}
+
+#grid_example_text
+{
+  font-family: FuroreRegular;
+  text-align: left;
+  font-size: 32px;
+
+}
+
+#float_example_text
+{
+  font-family: shark_in_the_waterregular;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+
+#absolute_relative_text
+{
+  font-family: space_1regular;
+  font-weight: bolder;
+  
+ 
+}
+
+#heading_img_clipboard
+{
+    font-family: JournalRegular; font-size: 52px; padding: 0px; margin: 0px;
+}
+.sub_heading_work_page
+{
+	font-family: GandhiSansBold;
+	font-size: 32px; 
+    margin-bottom: 2px;
+    margin-top: 65px;
+	text-align: center;
+    line-height: 30px;
+
+}

@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'RokkittRegular';
+    src: url('fonts/Rokkitt-webfont.eot');
+    src: url('fonts/Rokkitt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Rokkitt-webfont.woff') format('woff'),
+         url('fonts/Rokkitt-webfont.ttf') format('truetype'),
+         url('fonts/Rokkitt-webfont.svg#RokkittRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*0px -1px 0px black;1px 0px 0px black, 0px 1px 0px black;*/
+body{ background: url(images/bg.gif);}
+
+
+
+
+/*The styling for the intro title which will have an opacity of 0 ince finished! */
+div#intro_title{margin-top: 12em; }
+h1#title{font-family: "RokkittRegular"; color: #605c22; font-size: 6em; text-align: center; opacity: 0; margin: -1px; text-shadow: 2px 2px 5px #0a0a0a;  }
+h3#est_text{font-family: "RokkittRegular"; color: #605c22; font-size: 1em; margin-top:-1px; margin-bottom: 40px;  text-align: center; opacity: 0; text-shadow: 2px 2px 5px #0a0a0a;}
+h2#sub_title{font-family: "RokkittRegular"; color: #605c22; font-size: 1.5em; text-align: center; opacity:0; margin-top: 110px; text-shadow: 2px 2px 5px #0a0a0a;}
+div#intro_title img{ height:76px; width: 150px; margin-left:45%; opacity: 0;}
+
+/*Main page containers*/
+div#main_container{ margin-left: 10%; width: 1200px; margin-top: 100px; position: absolute; display: none; }
+
+/*Navigation styles and Structure*/
+p#logo{ font-size: 16px; font-family: "RokkittRegular"; color: #605c22; font-weight: bolder;  z-index: 2;  width: 100px; margin: 0px; position: absolute; top: 45px; left: 80px; }
+p#current_page { font-size: 50px; font-family: "RokkittRegular"; color: #605c22; font-weight: bolder; border-bottom: 1px solid #605c22;  width: 350px; float: left; margin-left: 45px;  }
+div#fixer{  width:350px; height:120px; position: relative; top: 0px; left: 0px;  z-index: 1; padding: 0px; margin: 0px; visibility: visible;  }
+
+div#nav_container{ width: 1200px; height: 120px; border: 1px solid #605c22; background-color: #0a0a0a; border-radius: 8px; margin-bottom: 10px;   position: absolute; top: 0px left 0px; }
+#nav_list { width:1200px; list-style-type: none; margin-top: 70px; text-decoration: none;   width: 850px;  position: relative; left: 400px; top: -115px;}
+#nav_list li { display: inline; padding: 5px;  margin: 0px 30px; }
+
+/*#nav_list li:nth-child(1) a { font-size: 50px; font-family: "RokkittRegular"; color: #605c22; font-weight: bolder; border-bottom: 1px solid #605c22;  }*/
+
+#nav_list li:first-child { margin-left: 45px;}
+#nav_list li:last-child { margin-right: 90px; }
+#nav_list li a { text-decoration: none; text-align: center; font-family:tahoma; color: #605c22; font-size: 16px;}
+
+
+/*Main page content:*/
+div#main_image{ background: url(images/homeMonsoon.jpg); border-radius: 8px;  height:226px; width: 1200px;   position: absolute; left: 0px; top: 135px; }                
+
+
+/*Float Selectors */
+.float_left{float:left;}
+.float_right{float:right;}
+
+/*Main content*/
+div#main_content{ width: 1200px; height: 1600px; margin: auto; position: relative; left: 0px; top: 365px;  }
+
+/*Home Page style*/
+div#home_page{  }
+div#welcome_img{  margin-right: 10px; float: left; background: url(images/ikie.jpg); border-radius: 5px; height: 369px; width: 350px;  }
+p#home_text{  font-family: tahoma; color: #605c22;  width: 1200px; }
+
+/*Catering Page style*/
+div#catering_page{ display: none; }
+p#catering_text{font-family: tahoma; color: #605c22; float: left; }
+
+div#catering_page img{  height: 200px; width: 290px; margin: 3px; margin-top: 15px; border-radius: 5px;}
+.catering_img{height: 200px; width: 290px; margin: 3px; margin-top: 15px;}
+
+/*Bakery Page style*/
+div#bakery_page{ display: none;  }
+
+div#bakey_sign{ float: left; width:550px; margin: 3px; border-radius: 5px; }
+
+img.img{ float: left; margin: 3px; margin: 20px 15px 35px 35px; }
+
+div#bakery_page img{  border-radius: 5px;}
+
+div#coffee_machine{ clear: left; width:500px; margin: 3px; margin-top: 15px; margin-right: 100px;  padding: 0px; border-radius: 5px; } 
+
+div#bakery_text{ float: right;  font-family: tahoma; color: #605c22; width: 630px;   }
+
+/*Contact*/
+div#contact_page{ display: none; }
+
+#map{ position: relative; top: 20px; left: 750px;}
+
+div#contact_detail{font-family: tahoma; color: #605c22; float: left;}
+
+
+
+
+
+
+
+
+
+
+
+
+/*TESTE
+.t1{color:white;}
+#t1{color:white;}*/
+
+/*Standard styling for logo and naviagtion
+
+
+p#logo_div{position: relative; top: 0px; left: 0px;  border: 1px solid #605c22; color: #605c22; font-size: 35px;width: 345px; height: 35px; background-color: #0a0a0a; border-radius: 8px; word-wrap: break-word;}
+
+p.stand_style{font-family: "RokkittRegular";   }
+/*p.stand_style{font-family: "RokkittRegular";  font-weight: bolder; 
+        text-shadow: 1px 1px 5px #0a0a0a; text-align: center;}*/
+/*div#main_nav{ width: 1200px;}
+
+div#logo{float: left;  width: 350px;}*/
+/*img#logo_img{ height: 45px; }*/
+
+/*Navigation styling*/
+/*div#nav_container{ float: right; margin-top: 90px; background-color: #0a0a0a; width: 835px; height: 15px; border-radius: 8px; border: 1px solid #605c22; margin-bottom: 1em;  padding-bottom: 3%; }
+div#nav_container ul {list-style-type: none;}
+div#nav_container ul li{ display: inline; text-align: center; padding-bottom: 25px;}
+div#nav_container ul li a{padding: 0px 35px; color: #605c22; text-decoration: none; font-size: 20px; font-family: tahoma; font-weight: bold;}*/
+
+
+
+/*#nav_div{ width: 825px;border: 1px solid yellow; }
+
+ul#nav_text {list-style-type: none; font-size: 0.75em; font-family: tahoma; border: 1px solid blue;}
+
+ul#nav_text li {display: inline; padding: 0px 15px; border: 1px solid green;}*/

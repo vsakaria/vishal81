@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'loveya';
+    src: url('fonts/LoveYaLikeASister.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sketchbook';
+    src: url('fonts/Sketch_Block.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	background-image: url(images/stressed_linen_@2X.png);
+	background-repeat: repeat;
+}
+
+#home{ display: none; position: fixed;}
+#work{display: none; position: fixed;}
+#play{display: none;position: fixed; }
+
+#main_img {
+	position: fixed;
+	left: 0px;
+	top: -60px;
+    margin-bottom: 0%;
+
+}
+
+#container{
+   position:absolute;  margin-left: 200px; margin-top: 100px; width: 1200px; max-height: 600px; border: px solid red;
+}
+
+#title{position: relative; top:-30px; left: 0.90em; font-family: loveya, Palatino Linotype; font-size: 60px; color: #996600; line-height: 55px;}
+
+#sub_title{position: relative; top:-60px; left: 65px; font-family: loveya, Palatino Linotype; font-size: 36px; color: #996600; line-height: 50px;}
+
+#coding_skills{ position: relative; top:-100px; left: 65px; font-family: loveya, Palatino Linotype; font-size: 25px; color: #669999;}
+
+
+#fblike{
+    position: relative; top:-72px; left: 65px; 
+}
+
+#telephone{ position: relative; top: -140px; left: 500px;}
+
+#telephone img{
+    height:55px; width: 90px;
+}
+
+#telephone p{ position: relative; top: -75px; left: 100px; font-family: loveya, Palatino Linotype; font-size: 24px; color: #996600;
+}
+
+
+#mail{ position: relative; top: -290px; left: 820px;}
+
+#mail img{
+    height:55px; width: 70px;
+}
+
+#mail p{ position: relative; top: -75px; left: 75px; font-family: loveya, Palatino Linotype; font-size: 24px; color: #996600;
+}
+
+#work_sub_title{position: relative; top:-60px; left: 65px; font-family: loveya, Palatino Linotype; font-size: 26px; color: #669999; line-height: 50px; line-height: 25px;}
+
+#cv_sub_title{position: relative; top:-50px; left: 65px; font-family: loveya, Palatino Linotype; font-size: 18px; color: #679967; line-height: 50px; line-height: 25px;}
+
+#monsoon{position: relative; top:0px; left: 65px; border-radius: 5px; }
+
+#cards{position: relative; top:0px; left: 105px;}
+
+#java{ position: relative; top:-35px; left: 150px;}
+
+#hover_java{ background-color: #181818; opacity: 1; border: 1px solid #956300; color: #956300; font-size: 14px; font-family: tahoma; height: 235px; width: 500px; position: relative; top: -270px; left: 500px; padding: 4px; visibility: hidden;} 
+
+#hover_monsoon{ background-color: #181818; opacity: 1; border: 1px solid #956300; color: #956300; font-size: 14px; font-family: tahoma; height: 235px; width: 500px; position: relative; top: -270px; left: 550px; padding: 4px; visibility: hidden; }
+
+#pics1{height: 175px; width:250px; position: relative; top:-180px; left: 65px; border-radius: 5px;}
+#pics2{height: 175px; width:250px; position: relative; top:-180px; left: 65px;border-radius: 5px;}
+#pics3{height: 175px; width:250px; position: relative; top:0px; left:-443px;border-radius: 5px;}
+#pics4{height: 175px; width:250px; position: relative; top:0px; left: -443px;border-radius: 5px;}
+
+#spotify{position: relative; top:0px; left: -420px; border: 5px solid #85b51a; border-radius: 5px;} 
+
+#dont{position: relative; top:-360px; left: 890px; height: 360px; width: 280px; }
+
+#down_button {  position: absolute; top: 88%; left: 50%; display: ; }
+#down_button img{ height: 80px; width: 80px;}
+#down_text {font-family: loveya, Palatino Linotype; font-size: 25px; color: #669999;
+position: absolute; top: 1%; left: 85%; visibility: hidden; height: 10px; }
+
+#up_button{position: absolute; top: 2%; left: 50%; display: ; }
+#up_button img{ height: 80px; width: 80px;}
+#up_text{font-family: loveya, Palatino Linotype; font-size: 25px; color: #669999;
+position: absolute; top: 1%; left: 95%; visibility: hidden;}
+
+#home_down_button {  position: absolute; top: 88%; left: 50%; display: none; }
+#home_down_button img{ height: 80px; width: 80px;}
+#home_down_text {font-family: loveya, Palatino Linotype; font-size: 25px; color: #669999;
+position: absolute; top: 1%; left: 85%; visibility: hidden; height: 10px; }
+
+#home_up_button{position: absolute; top: 2%; left: 50%; display: none; }
+#home_up_button img{ height: 80px; width: 80px;}
+#home_up_text{font-family: loveya, Palatino Linotype; font-size: 25px; color: #669999;
+position: absolute; top: 1%; left: 95%; visibility: hidden;}
+
+/****************************************************************************************/
+#spalsh{background-color: #272822; width:1200px; height: 100%; margin-top: 10%; border: solid 5px red; display: }
+p#spalsh_text{ margin-left: 100px; margin-right: 100px; font-family: loveya, Palatino Linotype; font-size: 36px; color: #996600; }

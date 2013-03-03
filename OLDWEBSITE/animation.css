@@ -1,0 +1,18 @@
+@-webkit-keyframes textfloat
+{
+  0%{
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+
+  }
+50%{
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  }
+ 100%{
+ 	-webkit-transform: rotate(10deg);
+ 	-moz-transform: rotate(10deg);
+ }
+ }
+}
+ 
